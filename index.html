@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>20seventeen to 20twentyfour</h1>
+    <div class="content-wrapper">
+        <div class="container">
+         <button id="prevBtn" class="nav-button">
+            <img src="images/prev.png" alt="Previous">
+         </button>
+         <div class="image-slider-container">
+           <div class="image-box">
+              <img id="portfolioImage" src="images/IMG01.jpg" alt="Portfolio Image">
+           </div>
+           <input type="range" id="imageSlider" min="0" max="1" value="0" step="1">
+         </div>
+         <button id="nextBtn" class="nav-button">
+          <img src="images/next.png" alt="Next">
+         </button>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
