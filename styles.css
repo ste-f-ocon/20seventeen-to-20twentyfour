@@ -112,3 +112,27 @@ h1 {
     cursor: pointer;
     border-radius: 50%; /* Rounded thumb */
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+    
+    .container {
+        flex-direction: column; /* Stack buttons and image vertically */
+    }
+
+    .image-box {
+        width: 90vw; /* Adjust width for smaller screens */
+        height: 50vh; /* Adjust height for smaller screens */
+    }
+
+    .nav-button {
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+
+    #imageSlider {
+        width: 90vw; /* Adjust width for smaller screens */
+        margin-top: 10px; /* Reduce space above the slider */
+    }
+}
